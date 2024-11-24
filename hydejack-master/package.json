@@ -42,7 +42,7 @@
     "prettier": "^2.8.8",
     "re-template-tag": "^2.0.1",
     "uglify-js": "^3.19.3",
-    "webpack": "^4.47.0",
+    "webpack": "^5.96.1",
     "webpack-cli": "^4.10.0",
     "webpack-merge": "^5.10.0",
     "worker-plugin": "^5.0.1",
