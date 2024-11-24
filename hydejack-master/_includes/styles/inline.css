@@ -1,0 +1,35 @@
+/*
+Error: Invalid CSS after "...org/licenses/>.": expected selector or at-rule, was "{% include styl..."
+        on line 16 of /Users/clwiley/Documents/WEBSITE-1/minimal/Templates/hydejack-master/_includes/styles/inline.scss
+
+11: // GNU General Public License for more details.
+12: //
+13: // You should have received a copy of the GNU General Public License
+14: // along with this program.  If not, see <http://www.gnu.org/licenses/>.
+15: 
+16: {% include styles/variables.scss %}
+17: @import "variables";
+18: @import "my-variables";
+19: @import "mixins";
+20: 
+21: {% if site.hydejack.dark_mode.dynamic %}
+
+Backtrace:
+/Users/clwiley/Documents/WEBSITE-1/minimal/Templates/hydejack-master/_includes/styles/inline.scss:16
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308:in `expected'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/scss/parser.rb:1238:in `expected'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/scss/parser.rb:42:in `parse'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/engine.rb:414:in `_to_tree'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/engine.rb:290:in `render'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:396:in `run'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in `parse'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in `parse!'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/bin/sass:13:in `<top (required)>'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/bin/sass:34:in `load'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/bin/sass:34:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...org/licenses/>.\": expected selector or at-rule, was \"{% include styl...\"\A         on line 16 of /Users/clwiley/Documents/WEBSITE-1/minimal/Templates/hydejack-master/_includes/styles/inline.scss\A \A 11: // GNU General Public License for more details.\A 12: //\A 13: // You should have received a copy of the GNU General Public License\A 14: // along with this program.  If not, see <http://www.gnu.org/licenses/>.\A 15: \A 16: {% include styles/variables.scss %}\A 17: @import \"variables\";\A 18: @import \"my-variables\";\A 19: @import \"mixins\";\A 20: \A 21: {% if site.hydejack.dark_mode.dynamic %}"; }

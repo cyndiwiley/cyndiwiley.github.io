@@ -1,0 +1,42 @@
+/*
+Error: Invalid CSS after "...amily:         ": expected expression (e.g. 1px, bold), was "{{ vars.font   ..."
+        on line 20 of /Users/clwiley/Documents/WEBSITE-1/minimal/Templates/hydejack-master/_includes/styles/variables.scss
+
+15: 
+16: // {% assign vars         = site.data.variables %}
+17: // {% assign ui_font      = 'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif' %}
+18: // {% assign ui_font_code = 'ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Mono", "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Consolas", "Courier New", monospace' %}
+19: 
+20: $font-family:         {{ vars.font         | default:site.font         | default:ui_font        }};
+21: $font-family-heading: {{ vars.font_heading | default:site.font_heading | default:ui_font        }};
+22: $code-font-family:    {{ vars.font_code    | default:site.font_code    | default:ui_font_code   }};
+23: $theme-color:         {{ vars.theme_color  | default:site.theme_color  | default:'rgb(8,46,57)' }};
+24: 
+25: $root-font-size:        {{ vars.root_font_size        | default:15 }}px;
+
+Backtrace:
+/Users/clwiley/Documents/WEBSITE-1/minimal/Templates/hydejack-master/_includes/styles/variables.scss:20
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308:in `expected'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/script/lexer.rb:240:in `expected!'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/script/parser.rb:855:in `assert_expr'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/script/parser.rb:68:in `parse'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/scss/parser.rb:1164:in `sass_script'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/scss/parser.rb:653:in `variable'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/scss/parser.rb:707:in `block_child'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/scss/parser.rb:697:in `block_contents'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/scss/parser.rb:137:in `stylesheet'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/scss/parser.rb:41:in `parse'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/engine.rb:414:in `_to_tree'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/engine.rb:290:in `render'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:396:in `run'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in `parse'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in `parse!'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/bin/sass:13:in `<top (required)>'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/bin/sass:34:in `load'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/bin/sass:34:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...amily:         \": expected expression (e.g. 1px, bold), was \"{{ vars.font   ...\"\A         on line 20 of /Users/clwiley/Documents/WEBSITE-1/minimal/Templates/hydejack-master/_includes/styles/variables.scss\A \A 15: \A 16: // {% assign vars         = site.data.variables %}\A 17: // {% assign ui_font      = 'system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Roboto\", \"Oxygen\", \"Ubuntu\", \"Cantarell\", \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Arial, sans-serif' %}\A 18: // {% assign ui_font_code = 'ui-monospace, Menlo, Monaco, \"Cascadia Mono\", \"Segoe UI Mono\", \"Roboto Mono\", \"Oxygen Mono\", \"Ubuntu Mono\", \"Source Code Pro\", \"Fira Mono\", \"Droid Sans Mono\", \"Consolas\", \"Courier New\", monospace' %}\A 19: \A 20: $font-family:         {{ vars.font         | default:site.font         | default:ui_font        }};\A 21: $font-family-heading: {{ vars.font_heading | default:site.font_heading | default:ui_font        }};\A 22: $code-font-family:    {{ vars.font_code    | default:site.font_code    | default:ui_font_code   }};\A 23: $theme-color:         {{ vars.theme_color  | default:site.theme_color  | default:'rgb(8,46,57)' }};\A 24: \A 25: $root-font-size:        {{ vars.root_font_size        | default:15 }}px;"; }

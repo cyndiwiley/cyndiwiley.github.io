@@ -1,0 +1,34 @@
+/*
+Error: Invalid CSS after "}": expected selector or at-rule, was "{% if site.hyde..."
+        on line 14 of /Users/clwiley/Documents/WEBSITE-1/minimal/Templates/hydejack-master/_includes/styles/common.scss
+
+9: }
+10: .layout-resume .note-sm:before {
+11:   content: "{{ site.data.strings.resume.summary | default:'Summary' }}";
+12: }
+13: 
+14: {% if site.hydejack.no_page_style %}
+15:   {% assign color       = site.accent_color | default:'rgb(79,177,186)' %}
+16:   {% assign theme_color = site.theme_color  | default:'rgb(8,46,57)' %}
+17:   {% include_cached styles/page-style.scss color=color theme_color=theme_color %}
+18: {% endif %}
+
+Backtrace:
+/Users/clwiley/Documents/WEBSITE-1/minimal/Templates/hydejack-master/_includes/styles/common.scss:14
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308:in `expected'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/scss/parser.rb:1238:in `expected'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/scss/parser.rb:42:in `parse'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/engine.rb:414:in `_to_tree'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/engine.rb:290:in `render'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:396:in `run'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in `parse'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in `parse!'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/bin/sass:13:in `<top (required)>'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/bin/sass:34:in `load'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/bin/sass:34:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"}\": expected selector or at-rule, was \"{% if site.hyde...\"\A         on line 14 of /Users/clwiley/Documents/WEBSITE-1/minimal/Templates/hydejack-master/_includes/styles/common.scss\A \A 9: }\A 10: .layout-resume .note-sm:before {\A 11:   content: \"{{ site.data.strings.resume.summary | default:'Summary' }}\";\A 12: }\A 13: \A 14: {% if site.hydejack.no_page_style %}\A 15:   {% assign color       = site.accent_color | default:'rgb(79,177,186)' %}\A 16:   {% assign theme_color = site.theme_color  | default:'rgb(8,46,57)' %}\A 17:   {% include_cached styles/page-style.scss color=color theme_color=theme_color %}\A 18: {% endif %}"; }
