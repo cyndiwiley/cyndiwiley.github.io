@@ -21,7 +21,7 @@ title                    : "Cyndi Wiley"
 title_separator          : "-"
 subtitle                 : Innovation and Tech Strategist, Professor, XR, User Experience, Industry 4.0 Futurist, Computational Design, Accessible Tech, Art Theorist, Game Design # site tagline that appears below site title in masthead
 name                     : "Cyndi Wiley"
-description              : "An amazing website."
+description              : "An brief look at some of my work."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
