@@ -1,0 +1,23 @@
+html, body { margin: 0; overflow: hidden; }
+#in5footer { display: none; }
+/* start screen, drawn at the app's native 2732 x 2048 size */
+#web-start { position: fixed; inset: 0; z-index: 100000; display: grid; place-items: center; background: rgba(17, 17, 17, .94); color: #fff; font-family: Roboto, "Helvetica Neue", Arial, sans-serif; }
+.web-start-box { max-width: 1500px; padding: 80px; text-align: left; }
+.web-start-kicker { margin: 0 0 32px; font-size: 40px; color: #f1be48; }
+#web-start h1 { margin: 0 0 32px; font-size: 120px; line-height: 1.05; font-weight: 700; letter-spacing: -1px; }
+.web-start-sub { margin: 0 0 72px; font-size: 52px; line-height: 1.4; color: #ddd; }
+#web-start-btn { font: 600 52px Roboto, "Helvetica Neue", Arial, sans-serif; color: #fff; background: #c8102e; border: 0; border-radius: 10px; padding: 36px 72px; cursor: pointer; }
+#web-start-btn:hover { background: #a30d25; }
+#web-start-btn:focus-visible { outline: 8px solid #f1be48; outline-offset: 8px; }
+.web-start-note { margin: 56px 0 0; font-size: 38px; line-height: 1.4; color: #bbb; }
+/* chapter menu (page 38): this export left the eight chapter buttons on the pasteboard,
+   so they are placed on the page in two columns, over the campus photograph tinted red */
+#item2729 { mix-blend-mode: multiply; }
+#item2469, #item2498, #item2528, #item2557 { left: 120px !important; }
+#item2586, #item2615, #item2644, #item2673 { left: 1419px !important; }
+#item2469, #item2586 { top: 190px !important; }
+#item2498, #item2615 { top: 590px !important; }
+#item2528, #item2644 { top: 990px !important; }
+#item2557, #item2673 { top: 1390px !important; }
+/* let clicks pass through pictures to the buttons beneath them */
+img.pageItem { pointer-events: none !important; }

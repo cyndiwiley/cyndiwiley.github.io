@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Creating the People's College: The Land Grant Legacy</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+<meta name="description" content="Interactive history app for Iowa State University Extension and Outreach, designed by Cyndi Wiley for an iPad kiosk.">
+<style>
+  html, body { margin: 0; height: 100%; overflow: hidden; background: #111; }
+  #stage { position: absolute; left: 0; top: 0; width: 2732px; height: 2048px; border: 0; display: block; background: #111; transform-origin: 0 0; }
+</style>
+</head>
+<body>
+<iframe id="stage" src="app.html" title="Creating the People's College, an interactive history app" allow="autoplay; fullscreen" width="2732" height="2048"></iframe>
+<script>
+  /* the app is laid out for a 2732 x 2048 iPad screen; scale it to fit this window */
+  (function () {
+    var W = 2732, H = 2048, f = document.getElementById('stage');
+    function fit() {
+      var s = Math.min(window.innerWidth / W, window.innerHeight / H);
+      var x = Math.max(0, (window.innerWidth - W * s) / 2), y = Math.max(0, (window.innerHeight - H * s) / 2);
+      f.style.transform = 'translate(' + x + 'px,' + y + 'px) scale(' + s + ')';
+    }
+    window.addEventListener('resize', fit);
+    fit();
+    f.addEventListener('load', function () { try { f.contentWindow.focus(); } catch (e) {} });
+  })();
+</script>
+</body>
+</html>
