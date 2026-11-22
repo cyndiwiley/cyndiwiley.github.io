@@ -1,0 +1,255 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:02.829
+There are many capable
+animation tools available today,
+
+2
+00:00:02.829 --> 00:00:07.133
+ranging from JavaScript libraries like
+p5.js to full-blown animation and video
+
+3
+00:00:07.133 --> 00:00:08.825
+programs like After Effects.
+
+4
+00:00:08.825 --> 00:00:10.400
+With all of these options,
+
+5
+00:00:10.400 --> 00:00:13.224
+how do you know which ones are
+best for a particular project?
+
+6
+00:00:13.224 --> 00:00:15.538
+That’s what this presentation
+is going to answer.
+
+7
+00:00:15.538 --> 00:00:19.502
+I will look at each type of animation
+that the company wants to produce and give
+
+8
+00:00:19.502 --> 00:00:22.726
+a recommendation for each while
+explaining the reasoning behind it.
+
+9
+00:00:22.726 --> 00:00:26.237
+But first, I need to explain functional
+and non-functional animation.
+
+10
+00:00:26.237 --> 00:00:29.809
+Basically, an animation that is
+solely decoration is non-functional,
+
+11
+00:00:29.809 --> 00:00:33.400
+and an animation that is part of an
+interactive element is functional.
+
+12
+00:00:33.400 --> 00:00:36.347
+For example, a promotional video
+would be non-functional animation,
+
+13
+00:00:36.347 --> 00:00:39.587
+but a button changing color when hovered
+over would be functional animation.
+
+14
+00:00:39.587 --> 00:00:41.000
+It’s giving feedback to the user.
+
+15
+00:00:41.800 --> 00:00:45.400
+Websites are generally built with
+JavaScript as the programming language.
+
+16
+00:00:45.400 --> 00:00:48.002
+JavaScript itself has the ability
+to animate web page elements,
+
+17
+00:00:48.002 --> 00:00:50.350
+but this could be extended
+by the use of libraries,
+
+18
+00:00:50.350 --> 00:00:53.500
+JavaScript files that provide
+new functionality to a web page.
+
+19
+00:00:53.500 --> 00:00:55.025
+An example would be p5.js.
+
+20
+00:00:55.025 --> 00:00:59.578
+It’s a JavaScript library whose aim is
+to add drawing and sketching functions to
+
+21
+00:00:59.578 --> 00:01:01.300
+JavaScript with simple syntax.
+
+22
+00:01:01.300 --> 00:01:04.949
+It’s a good tool, but I’d recommend
+GreenSock for the company’s website.
+
+23
+00:01:04.949 --> 00:01:08.690
+GreenSock is a collection of JavaScript
+libraries that adds all kinds of tools
+
+24
+00:01:08.690 --> 00:01:10.302
+to animate web page elements.
+
+25
+00:01:10.302 --> 00:01:13.923
+Tweens, playback controls and even
+simulated physics are possible with
+
+26
+00:01:13.923 --> 00:01:17.331
+GreenSock. Given that web pages use a
+lot of functional animation and that
+
+27
+00:01:17.331 --> 00:01:19.400
+GreenSock will tightly
+integrate with JavaScript,
+
+28
+00:01:19.400 --> 00:01:21.697
+it makes sense to use
+it to animate a website.
+
+29
+00:01:21.697 --> 00:01:25.049
+The wide variety of tools available
+will make nearly any idea possible,
+
+30
+00:01:25.049 --> 00:01:28.152
+and the developers won’t have to
+learn a new language or program.
+
+31
+00:01:28.152 --> 00:01:30.658
+I’d recommend GreenSock for banner ads,
+
+32
+00:01:30.658 --> 00:01:34.414
+HTML greetings and interactive
+quizzes as well for the same reasons.
+
+33
+00:01:34.414 --> 00:01:36.800
+Quizzes are especially
+well suited for GreenSock,
+
+34
+00:01:36.800 --> 00:01:39.133
+as it provides a large
+number of possibilities
+
+35
+00:01:39.133 --> 00:01:40.756
+for adding functional animations
+
+36
+00:01:40.756 --> 00:01:45.070
+to a quiz. Again, the tight integration
+with JavaScript is a very nice feature.
+
+37
+00:01:45.070 --> 00:01:48.393
+If 3D graphics are desired, WebGL
+would be a good option to pursue,
+
+38
+00:01:48.393 --> 00:01:51.584
+as it provides the ability to have
+3D graphics in a web page natively,
+
+39
+00:01:51.584 --> 00:01:54.700
+but if you aren’t using 3D graphics,
+there isn’t much reason for it.
+
+40
+00:01:55.400 --> 00:01:58.398
+For promotional videos, however,
+I’d recommend After Effects.
+
+41
+00:01:58.398 --> 00:02:02.731
+It’s a very robust animation application
+capable of executing complex ideas and
+
+42
+00:02:02.731 --> 00:02:04.800
+effects, and it exports video only.
+
+43
+00:02:04.800 --> 00:02:07.123
+After Effects can import
+many types of assets,
+
+44
+00:02:07.123 --> 00:02:09.100
+so it can be adapted to many workflows.
+
+45
+00:02:09.100 --> 00:02:12.302
+It can even use 3D graphics
+via Cinema 4D technology.
+
+46
+00:02:12.302 --> 00:02:14.200
+To use these videos on the web,
+
+47
+00:02:14.200 --> 00:02:17.647
+simply convert the rendered footage to
+a suitable file type such as MP4 and
+
+48
+00:02:17.647 --> 00:02:19.881
+upload it to YouTube
+or embed it with HTML.
+
+49
+00:02:19.881 --> 00:02:24.095
+So, I’ve briefly introduced several
+animation tools and recommended which ones
+
+50
+00:02:24.095 --> 00:02:25.571
+to use for different projects.
+
+51
+00:02:25.571 --> 00:02:27.000
+My sources are on the screen.
+
+52
+00:02:27.000 --> 00:02:28.712
+If you want to watch this video again,
+
+53
+00:02:28.712 --> 00:02:30.600
+simply click the replay button at the end.
+
+54
+00:02:30.600 --> 00:02:31.700
+Thank you for watching.
